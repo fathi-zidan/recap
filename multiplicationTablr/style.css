@@ -1,8 +1,11 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 table,th,td{
     border: 2px solid blue ;
     border-collapse: collapse;
-
-
 }
 th,td{
     width: 50px;
