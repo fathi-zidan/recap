@@ -36,4 +36,3 @@ console.log(user.counter);
 const admin1 = new admin('admin fathi', 'adminzidan@gmail.com', 'Teacher');
 admin1.printName();
 admin1.printRole();
-admin1.printCount();

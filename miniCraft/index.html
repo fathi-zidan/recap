@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Minecraft Game</title>
+</head>
+<body>
+  <div id="tutorial">
+    <h1>Welcome to the Minecraft Game!</h1>
+    <p>Click on a tool, then click on a tile in the world to interact. Use the inventory to place tiles back. Click the Reset button to start over.</p>
+  </div>
+
+  <div id="game-container">
+    <div id="world">
+        <!-- This is where we will draw our world -->
+    </div>
+    
+    <div class="controls">
+    </div>
+
+    <div id="tools">
+      <div class="tool" id="axe">Axe</div>
+      <div class="tool" id="pickaxe">Pickaxe</div>
+      <div class="tool" id="shovel">Shovel</div>
+    </div>
+
+    <div id="inventory"></div>
+
+    <button id="reset-button">Reset</button>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
